@@ -4,8 +4,8 @@ import '../ContactUs/contactUs.css'
 
 export default function contactUs() {
     return (
-        <div>
-            contactUs
+        <div className="footer text-center">
+            <span>All credit gose to js</span>
         </div>
     )
 }
