@@ -27,6 +27,9 @@ export default function header() {
                 <li>
                   <a href="#">Contact</a>
                 </li>
+                <li>
+                  <a href="#">Sign Up</a>
+                </li>
               </ul>
             </div>
           </div>
