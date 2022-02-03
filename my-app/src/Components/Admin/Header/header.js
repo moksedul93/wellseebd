@@ -1,182 +1,107 @@
-import React from 'react'
-import "../Header/header.css"
+import React from "react";
+import "../Header/header.css";
 
 export default function header() {
-    return (
-        <div>
-            <nav id="sidebar">
-			<div className="sidebar-header">
-				<h3>Reliable Accountant</h3>
-				<strong>RA</strong>
-			</div>
-
-			<ul className="list-unstyled components">
-				<li className="">
-					<a href="dashboard.html">
-						<i className="fa fa-th-large"></i>
-						Dashboard
-					</a>
-				</li>
-				<li>
-					<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
-						<i className="fa fa-users"></i>
-						Student
-					</a>
-					<ul className="collapse list-unstyled" id="homeSubmenu">
-						<li><a href="student-addmision.html">Student Admission</a></li>
-						<li><a href="student-list.html">Student List</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false">
-						<i className="fa fa-users"></i>
-						Teacher
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu1">
-						<li><a href="add-teacher.html">Add Teacher</a></li>
-						<li><a href="teacher-list.html">Teacher List</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false">
-						<i className="fa fa-users"></i>
-						Stuff
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu2">
-						<li><a href="add-employee.html">Add Stuff</a></li>
-						<li><a href="employee-list.html">Stuff List</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="departments.html">
-						<i className="fa fa-th"></i>
-						Departments
-					</a>
-				</li>
-				<li>
-					<a href="classes.html">
-						<i className="fa fa-th-large"></i>
-						Classes
-					</a>
-				</li>
-				<li>
-					<a href="sections.html">
-						<i className="fa fa-square"></i>
-						Sections
-					</a>
-				</li>
-				<li>
-					<a href="groups.html">
-						<i className="fa fa-users"></i>
-						Groups
-					</a>
-				</li>
-				<li>
-					<a href="subjects.html">
-						<i className="fa fa-clipboard"></i>
-						Subjects
-					</a>
-				</li>
-				<li>
-					<a href="#pageSubmenu10" data-toggle="collapse" aria-expanded="false">
-						<i className="fa fa-clock-o"></i>
-						Routine
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu10">
-						<li><a href="routin2.html">Student Routine</a></li>
-						<li><a href="routin2.html">Teacher Routine</a></li>
-						<li><a href="routin2.html">Employee Routine</a></li>
-						<li><a href="routin2.html">Add Routine</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#pageSubmenu11" data-toggle="collapse" aria-expanded="false">
-						<i className="fa fa-check-circle"></i>
-						Attendance
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu11">
-						<li><a href="attendence-student.html">Student Attendance</a></li>
-						<li><a href="attendence-teacher.html">Teacher Attendance</a></li>
-						<li><a href="attendence-employee.html">Employee Attendance</a></li>
-						<li><a href="attendence-stuffs"></a>Stuffs Attendance</li>
-					</ul>
-				</li>
-				<li>
-					<a href="exam.html">
-						<i className="fa fa-align-justify"></i>
-						Exam
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu3">
-						<li><a href="#">Manage Exam</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="marks.html">
-						<i className="fa fa-calculator"></i>
-						Marks
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu8">
-						<li><a href="#">Set Marks</a></li>
-						<li><a href="#">Result List</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false">
-						<i className="fa fa-book"></i>
-						Library
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu4">
-						<li><a href="library.html">Manage Books</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">
-						<i className="fa fa-money"></i>
-						Collect Fees
-					</a>
-				</li>
-				<li>
-					<a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false">
-						<i className="fa fa-bus"></i>
-						Transport
-					</a>
-					<ul className="collapse list-unstyled" id="pageSubmenu5">
-						<li><a href="transport.html">Add Transport</a></li>
-						<li><a href="transport-list.html">Transport List</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="notice.html">
-						<i className="fa fa-clipboard"></i>
-						Notice
-					</a>
-				</li>
-				<li>
-					<a href="events.html">
-						<i className="fa fa-calendar"></i>
-						Events
-					</a>
-				</li>
-				<li>
-					<a href="account-setting.html">
-						<i className="fa fa-cogs"></i>
-						Account Setting
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i className="fa fa-align-left"></i>
-						FAQ
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i className="fa fa-phone"></i>
-						Contact
-					</a>
-				</li>
-			</ul>
-		</nav>
+  return (
+    <div>
+      <nav id="sidebar">
+        <div className="sidebar-header">
+          <h3>Reliable Accountant</h3>
+          <strong>RA</strong>
         </div>
-    )
+
+        <ul className="list-unstyled components">
+          <li>
+            <a href="departments.html">
+              <i className="fa fa-th"></i>
+              HOMEPAGE
+            </a>
+          </li>
+          <li>
+            <a href="classes.html">
+              <i className="fa fa-th-large"></i>
+              DAILY WORK
+            </a>
+          </li>
+          <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
+              <i className="fa fa-users"></i>
+              Dashboard
+            </a>
+            <ul className="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="#">SELLS COMMISSION</a>
+              </li>
+              <li>
+                <a href="#">GROUP BONUS</a>
+              </li>
+              <li>
+                <a href="#">DAILY INCOME</a>
+              </li>
+              <li>
+                <a href="#">REWARD INCOME</a>
+              </li>
+              <li>
+                <a href="#">REWARD PENDING</a>
+              </li>
+              <li>
+                <a href="#">Process Money</a>
+              </li>
+              <li>
+                <a href="#">Shopping Balance</a>
+              </li>
+              <li>
+                <a href="#">BDT balance</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="#ftransferubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+            >
+              <i className="fa fa-users"></i>
+              TRANSFER
+            </a>
+            <ul className="collapse list-unstyled" id="ftransferubmenu">
+              <li>
+                <a href="#">BDT</a>
+              </li>
+              <li>
+                <a href="#">SHOPPING</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="#withdrawubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+            >
+              <i className="fa fa-users"></i>
+              WITHDRAW
+            </a>
+            <ul className="collapse list-unstyled" id="withdrawubmenu">
+              <li>
+                <a href="#">BKASH</a>
+              </li>
+              <li>
+                <a href="#">ROCKET</a>
+              </li>
+              <li>
+                <a href="#">NOGOD</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i className="fa fa-phone"></i>
+              CONTACT
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  );
 }
