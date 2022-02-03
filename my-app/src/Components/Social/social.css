@@ -14,7 +14,15 @@
     align-items: center;
     font-size: 24px;
 }
-.socail a, .ecome a{
-    background: #f5af19;
-    padding: 5px 15px;
+.socail a, .ecome a {
+    padding: 20px 15px;
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    width: 64%;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.socail a:hover, .ecome a:hover{
+    color: #fff;
 }

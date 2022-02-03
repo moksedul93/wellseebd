@@ -3,6 +3,7 @@ import AboutUs from '../src/Components/AboutUs/aboutUs'
 import ContactUs from './Components/ContactUs/contactUs';
 import Social from './Components/Social/social';
 import Ecommerce from './Components/Ecommerce/ecommerce';
+import AdminHeader from './Components/Admin/Header/header'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Social />
       <Ecommerce />
       <ContactUs />
+      <AdminHeader />
     </div>
   );
 }

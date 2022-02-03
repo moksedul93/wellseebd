@@ -7,7 +7,7 @@ export default function ecommerce() {
         <div className="ecome">
             <div className="row">
                 <div className="col-sm-6">
-                <div className="ecommercebtn"><a href="#">ecommerce</a></div>
+                <div className="ecommercebtn"><div class="inner"></div><a href="#">ecommerce</a></div>
                 </div>
                 <div className="col-sm-6">
                     <div className="ecommerce"> <img src={Ecommerce} alt="e-commerce.jpg"/> </div>
